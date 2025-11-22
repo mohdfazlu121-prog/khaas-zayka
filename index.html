@@ -3,12 +3,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Website Name</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Khaas Zayka — Online Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      color: #222;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      margin: 10px auto;
+      max-width: 800px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #4CAF50;
+    }
+    .product {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .item {
+      background: #f1f1f1;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      width: 150px;
+    }
+    .item img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #222;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-  <!-- Yahan aapka website content -->
-  <h1>Welcome to My Website</h1>
-  <p>This is my first page.</p>
+
+<header>
+  <h1>Khaas Zayka</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section>
+  <h2>Welcome to Khaas Zayka</h2>
+  <p>Fresh, tasty, and homemade food delivered with love!</p>
+</section>
+
+<section>
+  <h2>Our Special Dishes</h2>
+  <div class="product">
+    <div class="item">
+      <img src="https://via.placeholder.com/150" alt="Dish 1">
+      <h3>Biryani</h3>
+      <p>₹250</p>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/150" alt="Dish 2">
+      <h3>Paneer Butter Masala</h3>
+      <p>₹200</p>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/150" alt="Dish 3">
+      <h3>Chicken Curry</h3>
+      <p>₹300</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Khaas Zayka. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
